@@ -36,6 +36,10 @@ function RightMenu(props) {
         <Menu.Item key="logout">
           <a onClick={logoutHandler}>Logout</a>
         </Menu.Item>
+        <Menu.Item key="upload">
+          <a href="/product/upload">Upload</a> 
+          {/* App.js에서 /product/upload로 경로 정했었음 */}
+        </Menu.Item>
       </Menu>
     )
   }
